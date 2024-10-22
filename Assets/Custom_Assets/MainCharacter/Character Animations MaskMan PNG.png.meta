@@ -1,0 +1,782 @@
+fileFormatVersion: 2
+guid: de3824df8f79d2545a459c70c3c807c2
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Character Animations MaskMan PNG_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 144
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -11, y: 2}
+        - {x: -12, y: 2}
+        - {x: -12, y: -9}
+        - {x: -11, y: -9}
+        - {x: -11, y: -12}
+        - {x: -12, y: -12}
+        - {x: -12, y: -15}
+        - {x: -13, y: -15}
+        - {x: -13, y: -16}
+        - {x: -14, y: -16}
+        - {x: -14, y: -17}
+        - {x: -15, y: -17}
+        - {x: -15, y: -21}
+        - {x: -14, y: -21}
+        - {x: -14, y: -22}
+        - {x: -13, y: -22}
+        - {x: -13, y: -23}
+        - {x: -11, y: -23}
+        - {x: -11, y: -24}
+        - {x: -8, y: -24}
+        - {x: -8, y: -23}
+        - {x: 8, y: -23}
+        - {x: 8, y: -24}
+        - {x: 11, y: -24}
+        - {x: 10.999998, y: -23.048004}
+        - {x: 13, y: -23}
+        - {x: 13, y: -22}
+        - {x: 14, y: -22}
+        - {x: 14, y: -21}
+        - {x: 15, y: -21}
+        - {x: 15, y: -17}
+        - {x: 14, y: -17}
+        - {x: 14, y: -16}
+        - {x: 13, y: -16}
+        - {x: 13, y: -14}
+        - {x: 12, y: -14}
+        - {x: 12, y: -12}
+        - {x: 13, y: -12}
+        - {x: 13, y: -6}
+        - {x: 12, y: -6}
+        - {x: 12, y: 2}
+        - {x: 11, y: 2}
+        - {x: 11, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: 11}
+        - {x: 8, y: 11}
+        - {x: 8, y: 12}
+        - {x: 7, y: 12}
+        - {x: 7, y: 13}
+        - {x: 5, y: 13}
+        - {x: 5, y: 14}
+        - {x: 6, y: 14}
+        - {x: 6, y: 15}
+        - {x: 8, y: 15}
+        - {x: 8, y: 16}
+        - {x: 9, y: 16}
+        - {x: 9, y: 17}
+        - {x: 10, y: 17}
+        - {x: 10, y: 18}
+        - {x: 9, y: 18}
+        - {x: 8, y: 18}
+        - {x: 8, y: 19}
+        - {x: 7, y: 19}
+        - {x: 7, y: 20}
+        - {x: 6, y: 20}
+        - {x: 6, y: 21}
+        - {x: 5, y: 21}
+        - {x: 5, y: 22}
+        - {x: 4, y: 22}
+        - {x: 4, y: 23}
+        - {x: 3, y: 23}
+        - {x: 3, y: 24}
+        - {x: 1, y: 24}
+        - {x: 1, y: 23}
+        - {x: -1, y: 23}
+        - {x: -1, y: 24}
+        - {x: -3, y: 24}
+        - {x: -3, y: 23}
+        - {x: -4, y: 23}
+        - {x: -4, y: 22}
+        - {x: -5, y: 22}
+        - {x: -5, y: 21}
+        - {x: -6, y: 21}
+        - {x: -6, y: 20}
+        - {x: -7, y: 20}
+        - {x: -7, y: 19}
+        - {x: -8, y: 19}
+        - {x: -8, y: 18}
+        - {x: -10, y: 18}
+        - {x: -10, y: 17}
+        - {x: -9, y: 17}
+        - {x: -9, y: 16}
+        - {x: -8, y: 16}
+        - {x: -8, y: 15}
+        - {x: -6, y: 15}
+        - {x: -6, y: 14}
+        - {x: -5, y: 14}
+        - {x: -5, y: 13}
+        - {x: -7, y: 13}
+        - {x: -7, y: 12}
+        - {x: -8, y: 12}
+        - {x: -8, y: 11}
+        - {x: -10, y: 11}
+        - {x: -10, y: 10}
+        - {x: -11, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d18412fd1d57c2d4691b10bc14e849ee
+      internalID: 2042628423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations MaskMan PNG_1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 144
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de9bbeee02f91e74fb0881cdfe279a49
+      internalID: -1953453491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations MaskMan PNG_2
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 144
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d9e53294b01a34895f307bd3815624
+      internalID: 1881686450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations MaskMan PNG_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd8b1a09a37030b4caba4f7ce67ae97d
+      internalID: 773423585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations MaskMan PNG_5
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 144
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f49ff565080564694454089deebcbe
+      internalID: 1713316294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations MaskMan PNG_6
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 144
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6281d11db07e12840b539ac03e83da84
+      internalID: -1253927618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations MaskMan PNG_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 96
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6db90360a7dba4fb176cc5d6643e12
+      internalID: 108720700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations MaskMan PNG_9
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 96
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd25a9acc88f0b4e893759f7f11d4d4
+      internalID: 2123214066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations MaskMan PNG_10
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 96
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45df0285a39c0b54f82f88e05581b019
+      internalID: 1129030656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations MaskMan PNG_11
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 96
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d526bca0d3d7b4ca4162a3617a748e
+      internalID: -1739837284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations MaskMan PNG_13
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 96
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980eb4a3a7ca7054ab0fef6b881d99d2
+      internalID: -856562515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations MaskMan PNG_14
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 96
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aacb67f3730a5324c843926791eac83c
+      internalID: 2113772384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations MaskMan PNG_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 48
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa78c56b274eeb4b967cfec83bf2dc6
+      internalID: -440543923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations MaskMan PNG_17
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 48
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b747c43a06b08194f807347796ffd1b8
+      internalID: 1106701253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations MaskMan PNG_18
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 48
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e2fd2b9846c394c9b3d6996dd6cb27
+      internalID: 2008428999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations MaskMan PNG_19
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 48
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0434e8c94d7d545898de57e3b16060
+      internalID: 78014010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations MaskMan PNG_21
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 48
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b91212ce4d27346b4d7abc5b02f874
+      internalID: 847252660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations MaskMan PNG_22
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 48
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa4210269f28df04e8b89dc8ec79995b
+      internalID: -2118176237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations MaskMan PNG_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6662ca1107861644b95de0cb36a6b54
+      internalID: 1315197185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations MaskMan PNG_25
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c44689dc21f36b448596cca624d547c
+      internalID: 134441679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations MaskMan PNG_26
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 0
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b5826b09bdef6c4a8fabd2f78719d26
+      internalID: -1033182495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations MaskMan PNG_27
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 0
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e267f1b179751a94caf3ea19605f35bf
+      internalID: 657427435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations MaskMan PNG_29
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e74c456823c74ad459afd94cccf33939
+      internalID: -419738415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations MaskMan PNG_30
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 0
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b22b2414833a0d459375ff434a6d43e
+      internalID: -540028942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 7d46a50efed061446abf3d8024131c3a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Character Animations MaskMan PNG_0: 2042628423
+      Character Animations MaskMan PNG_1: -1953453491
+      Character Animations MaskMan PNG_10: 1129030656
+      Character Animations MaskMan PNG_11: -1739837284
+      Character Animations MaskMan PNG_12: -444251636
+      Character Animations MaskMan PNG_13: -856562515
+      Character Animations MaskMan PNG_14: 2113772384
+      Character Animations MaskMan PNG_15: -1059724912
+      Character Animations MaskMan PNG_16: -440543923
+      Character Animations MaskMan PNG_17: 1106701253
+      Character Animations MaskMan PNG_18: 2008428999
+      Character Animations MaskMan PNG_19: 78014010
+      Character Animations MaskMan PNG_2: 1881686450
+      Character Animations MaskMan PNG_20: 451412198
+      Character Animations MaskMan PNG_21: 847252660
+      Character Animations MaskMan PNG_22: -2118176237
+      Character Animations MaskMan PNG_23: 1346353512
+      Character Animations MaskMan PNG_24: 1315197185
+      Character Animations MaskMan PNG_25: 134441679
+      Character Animations MaskMan PNG_26: -1033182495
+      Character Animations MaskMan PNG_27: 657427435
+      Character Animations MaskMan PNG_28: -1829125974
+      Character Animations MaskMan PNG_29: -419738415
+      Character Animations MaskMan PNG_3: 773423585
+      Character Animations MaskMan PNG_30: -540028942
+      Character Animations MaskMan PNG_31: -707479029
+      Character Animations MaskMan PNG_4: 1261775472
+      Character Animations MaskMan PNG_5: 1713316294
+      Character Animations MaskMan PNG_6: -1253927618
+      Character Animations MaskMan PNG_7: -909386499
+      Character Animations MaskMan PNG_8: 108720700
+      Character Animations MaskMan PNG_9: 2123214066
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
