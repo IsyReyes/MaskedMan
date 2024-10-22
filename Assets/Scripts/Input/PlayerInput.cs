@@ -10,8 +10,9 @@ public class PlayerInput : MonoBehaviour
     private Animator _animator;
     
     private Vector2 _lastMoveInput;
+    
 
-    void Awake()
+    private void Awake()
     {
         _inputActions = new PlayerControls();
         _animator = GetComponent<Animator>();
@@ -24,6 +25,7 @@ public class PlayerInput : MonoBehaviour
 
         _inputActions.Movement.Movement.performed += OnMovePerformed;
         _inputActions.Movement.Movement.canceled += OnMoveCanceled;
+        
     }
     
     private void OnDisable()
@@ -58,19 +60,18 @@ public class PlayerInput : MonoBehaviour
         
         if (speed > 0)
         {
+            //pasar valores al animator
             _animator.SetFloat("MoveX", _moveInput.x);
             _animator.SetFloat("MoveY", _moveInput.y);
         }
         else
         {
-            // If speed is 0, reset MoveX and MoveY to 0 for idle animations
+            // reset anims 
             _animator.SetFloat("MoveX", _lastMoveInput.x);
             _animator.SetFloat("MoveY", _lastMoveInput.y);
-
-            // You can optionally use _lastDirection for visual purposes, but avoid overriding blend parameters with it
         }
         
-        Debug.Log("MoveX: " + _moveInput.x + " MoveY: " + _moveInput.y + " Speed: " + speed);
+        //Debug.Log("MoveX: " + _moveInput.x + " MoveY: " + _moveInput.y + " Speed: " + speed);
 
         
     }
