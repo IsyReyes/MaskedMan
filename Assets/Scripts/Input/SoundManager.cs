@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class SoundManager : MonoBehaviour
@@ -8,6 +9,7 @@ public class SoundManager : MonoBehaviour
     private AudioSource _audioSource; // componente de audio
     private void Awake()
     {
+        _audioSource = GetComponent<AudioSource>();
         //revisa si la instancia existe o no
         if (instance == null)
         {
@@ -21,16 +23,18 @@ public class SoundManager : MonoBehaviour
         }
     }
 
-
-    public void WalkSound()
+    private void OnEnable()
     {
-        _audioSource = GetComponent<AudioSource>();
-        _audioSource.Play();
+        PlayerInput.IsMaskedManWalking += PlayWalkAudio;
+        PlayerInput.PlayerStoppedWalking += StopWalkAudio;
     }
 
-    public void StopSound()
+    private void OnDisable()
     {
-        _audioSource = GetComponent<AudioSource>();
-        _audioSource.Stop();
+        PlayerInput.IsMaskedManWalking -= PlayWalkAudio;
+        PlayerInput.PlayerStoppedWalking -= StopWalkAudio;
     }
+    private void PlayWalkAudio() => _audioSource.Play();
+    private void StopWalkAudio() => _audioSource.Stop();
+    
 }

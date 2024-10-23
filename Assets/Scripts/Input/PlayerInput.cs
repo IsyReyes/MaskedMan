@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -9,7 +10,14 @@ public class PlayerInput : MonoBehaviour
     private Vector2 _moveInput;
     private Animator _animator;
     
+    private bool isWalking = false;
+    
     private Vector2 _lastMoveInput;
+    
+    //eventt p/observer
+    public static event Action IsMaskedManWalking;
+    public static event Action PlayerStoppedWalking;
+
     
 
     private void Awake()
@@ -60,15 +68,26 @@ public class PlayerInput : MonoBehaviour
         
         if (speed > 0)
         {
-            //pasar valores al animator
             _animator.SetFloat("MoveX", _moveInput.x);
             _animator.SetFloat("MoveY", _moveInput.y);
+            
+            if (!isWalking)
+            {
+                IsMaskedManWalking?.Invoke();
+                isWalking = true;
+            }
         }
         else
         {
-            // reset anims 
             _animator.SetFloat("MoveX", _lastMoveInput.x);
             _animator.SetFloat("MoveY", _lastMoveInput.y);
+
+            
+            if (isWalking)
+            {
+                PlayerStoppedWalking?.Invoke();
+                isWalking = false;
+            }
         }
         
         //Debug.Log("MoveX: " + _moveInput.x + " MoveY: " + _moveInput.y + " Speed: " + speed);
