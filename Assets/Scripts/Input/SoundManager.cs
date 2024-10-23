@@ -26,13 +26,13 @@ public class SoundManager : MonoBehaviour
     private void OnEnable()
     {
         PlayerInput.IsMaskedManWalking += PlayWalkAudio;
-        PlayerInput.PlayerStoppedWalking += StopWalkAudio;
+        PlayerInput.IsMaskedManStill += StopWalkAudio;
     }
 
     private void OnDisable()
     {
         PlayerInput.IsMaskedManWalking -= PlayWalkAudio;
-        PlayerInput.PlayerStoppedWalking -= StopWalkAudio;
+        PlayerInput.IsMaskedManStill -= StopWalkAudio;
     }
     private void PlayWalkAudio() => _audioSource.Play();
     private void StopWalkAudio() => _audioSource.Stop();

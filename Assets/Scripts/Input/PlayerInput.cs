@@ -4,19 +4,19 @@ using UnityEngine.InputSystem;
 
 public class PlayerInput : MonoBehaviour
 {
-    public float playerSpeed = 5.0f;
+    [SerializeField] private float playerSpeed = 5.0f;
     
     private PlayerControls _inputActions;
     private Vector2 _moveInput;
     private Animator _animator;
     
-    private bool isWalking = false;
+    private bool isWalking;
     
     private Vector2 _lastMoveInput;
     
     //eventt p/observer
     public static event Action IsMaskedManWalking;
-    public static event Action PlayerStoppedWalking;
+public static event Action IsMaskedManStill;
 
     
 
@@ -85,7 +85,7 @@ public class PlayerInput : MonoBehaviour
             
             if (isWalking)
             {
-                PlayerStoppedWalking?.Invoke();
+                IsMaskedManStill?.Invoke();
                 isWalking = false;
             }
         }
